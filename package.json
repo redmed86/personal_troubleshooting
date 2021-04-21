@@ -1,0 +1,22 @@
+{
+  "name": "opera_troubleshooting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio-bs": "./node_modules/.bin/wdio run bs.wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^7.5.0"
+  },
+  "devDependencies": {
+    "@wdio/browserstack-service": "^7.5.0",
+    "@wdio/cli": "^7.5.0",
+    "@wdio/local-runner": "^7.5.0",
+    "@wdio/mocha-framework": "^7.4.6",
+    "@wdio/spec-reporter": "^7.4.3"
+  }
+}
