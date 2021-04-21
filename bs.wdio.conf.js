@@ -22,7 +22,7 @@ exports.config = {
         "browserstack.networkLogs": true,
         "browserstack.console": "verbose",
         name: "Chrome Test",
-        build: "Abbott: Opera Troubleshooting",
+        build: "Customer Opera Troubleshooting",
         project: "Opera Troubleshooting Abbott"
       },
       {
@@ -33,7 +33,7 @@ exports.config = {
         "browserstack.networkLogs": true,
         "browserstack.console": "verbose",
         name: "Opera Test",
-        build: "Abbott: Opera Troubleshooting",
+        build: "Customer Opera Troubleshooting",
         project: "Opera Troubleshooting Abbott"
       }
     ],
