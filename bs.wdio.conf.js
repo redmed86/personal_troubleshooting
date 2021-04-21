@@ -5,7 +5,6 @@ exports.config = {
     
     specs: [
       "e2e-tests/specs/fileSamples.spec.js",
-      "e2e-tests/specs/googleDisplays.spec.js"
     ],
     
     exclude: [
@@ -17,17 +16,6 @@ exports.config = {
     capabilities: [
       {
         browser: "Chrome",
-        browserVersion: "latest",
-        os: "OS X",
-        os_version: "Mojave",
-        "browserstack.networkLogs": true,
-        "browserstack.console": "verbose",
-        name: "Chrome Test",
-        build: "Abbott: Opera Troubleshooting",
-        project: "Opera Troubleshooting Abbott"
-      },
-      {
-        browser: "Firefox",
         browserVersion: "latest",
         os: "OS X",
         os_version: "Mojave",
